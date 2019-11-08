@@ -1,3 +1,10 @@
+# This script assumes that the CORA dataset is in a local 
+# mysql database. Modify the mysql connector to use another
+# location.
+# https://relational.fit.cvut.cz/dataset/CORA
+# It outputs a list of edges to cora_edges.csv in the format:
+# vertex1, vertex2, edgeWeight
+
 #%%
 import mysql.connector
 
